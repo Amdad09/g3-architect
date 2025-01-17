@@ -20,6 +20,14 @@ header {
   align-items: center;
 }
 
+.navigate > :last-child{
+  display: none;
+ }
+
+/* #menu-icon{
+  display: none;
+} */
+ 
 .header-section {
   text-align: center;
   margin-top: 116px;
@@ -100,7 +108,9 @@ main > * {
   align-items: center;
   gap: 73px;
 }
-
+/* .team img{
+  width: 100%;
+} */
 .team {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -171,8 +181,15 @@ main > * {
 }
 .fact-box {
   padding: 3rem;
+  /* height: 241px;
+  width: 241px; */
+  /* line-height: 241px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   border: 2px solid rgb(255, 144, 14);
-  text-align: center;
+  /* text-align: center; */
   border-radius: 8px;
 }
 .fact-box > * {
